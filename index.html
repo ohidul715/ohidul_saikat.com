@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="description" content="A simplte html5 portfolio template.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE -->
+    <title>Paul Labkin.</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="resources/img/code.png" type="image/x-icon">
+    <!-- APPLE TOUCH ICON -->
+    <link rel="apple-touch-icon" href="resources/img/code.png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/query.css">
+</head>
+<body>
+    <!-- START HEADER SECTION -->
+    <header id="hero">
+        <div id="particles-js"></div>
+            <nav class="clearfix" data-uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+               <div class="container">
+                    <div class="logo">
+                        <a href="index.html"><img src="resources/img/logo.gif" alt="logo"></a>
+                    </div>
+                    <div class="menu" onclick="openMenu()">
+                        <a href="javascript:void(0)"><ion-icon name="menu-outline"></ion-icon></a>
+                    </div>
+               </div>
+               <div class="menu-contaiiner" id="navber" onclick="closeMenu()">
+                   <div class="close-btn">
+                       <a href="javascript:void(0)" onclick="closeMenu()"><ion-icon name="close-outline"></ion-icon></a>
+                   </div>
+                   <div class="hamburger-menu">
+                       <ul>
+                           <li><a href="#hero" onclick="closeMenu()">HOME</a></li>
+                           <li><a href="#about" onclick="closeMenu()">ABOUT</a></li>
+                           <li><a href="#process" onclick="closeMenu()">PROCESS</a></li>
+                           <li><a href="#exp" onclick="closeMenu()">EXPERIENCE</a></li>
+                           <li><a href="#work" onclick="closeMenu()">PORTFOLIO</a></li>
+                           <li><a href="#testi" onclick="closeMenu()">TESTIMONIAL</a></li>
+                           <li><a href="#contact" onclick="closeMenu()">CONTACT</a></li>
+                       </ul>
+                   </div>
+               </div>
+            </nav>
+            <div class="hero-text-box">
+              <div class="container">
+                <div class="hero-contant" data-uk-scrollspy="cls: uk-animation-scale-up; repeat: true">
+                    <h1>Paul Lapkin</h1>
+                    <span>#User Experience #Music #Creative Direction</span>
+                </div>
+              </div>
+            </div>
+            <div class="next-section">
+                <a href="javascript:void(0)"><ion-icon name="arrow-down-circle-outline"></ion-icon></a>
+            </div>
+    </header>
+    <!-- END HEADER SECTION -->
+
+    <!-- START ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-grid-item">
+                    <img src="resources/img/man.jpg" alt="paul" class="paul">
+                </div>
+                <div class="about-grid-item">
+                    <h4>Hi i'm Paul Labkin,Experience Crafter From Canada.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, corrupti! Temporibus nesciunt architecto consectetur neque? Tempore natus autem laborum, minima, similique necessitatibus quo deleniti recusandae velit reiciendis cum voluptas cupiditate officiis adipisci, optio fugiat? Quae est saepe harum officia neque, nisi maxime quasi perferendis.
+                    <br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, hic voluptatem officia similique illo facere labore ipsa cumque sunt repellat expedita doloremque quaerat aperiam ipsam quo quia, laboriosam ab consequatur nesciunt cum itaque dicta, dolorem veritatis! Tempore ipsa labore vel!
+                    </p>
+                    <div class="about-btn">
+                        <a href="javascript:void(0)" class="btn btn-full">hire me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT SECTION -->
+
+    <!-- START PROCESS SECTION -->
+    <section id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Working Process</h2>
+                <p>Hi, i'm Paul Lapkin, Experience crafter from Canada.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-grid-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="">
+                    <div class="icon">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+                    <h4>DESIGN</h4>
+                </div>
+                <div class="process-grid-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="icon">
+                        <ion-icon name="airplane-outline"></ion-icon>
+                    </div>
+                    <h4>DEVELOPMENT</h4>
+                </div>
+                <div class="process-grid-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="icon">
+                        <ion-icon name="construct-outline"></ion-icon>
+                    </div>
+                    <h4>TESTING</h4>
+                </div>
+                <div class="process-grid-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                    <div class="icon">
+                        <img src="resources/img/iic.png" alt="icon">
+                    </div>
+                    <h4>LAUNCH</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PROCESS SECTION -->
+
+    <!-- START EXP SECTION -->
+    <section id="exp">
+        <div class="container">
+            <div class="exp-grid">
+                <div class="exp-grid-item">
+                    <h3>WORK EXPERIENCE</h3>
+                    <div class="job">
+                        <h4>Mad Max Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Crazy Design</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+                <div class="exp-grid-item">
+                    <h3>EDUCATION</h3>
+                    <div class="job">
+                        <h4>Maddison University</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Max Design & Art Institute</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END EXP SECTION -->
+
+    <!-- START WORK SECTION -->
+    <section id="work">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Latest Works</h2>
+                <p>Hi, i'm Paul Lapkin, Experience crafter from Canada.</p>
+            </div>
+            <div class="work-filter">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".wd">WEB DESIGN</button>
+                <button type="button" data-filter=".webd">WEB DEVELOPMENT</button>
+                <button type="button" data-filter=".wp">WORDPRESS</button>
+            </div>
+            <div class="work-grid" data-uk-grid data-uk-lightbox="animation: slide">
+                <div class="work-grid-item mix wd">
+                    <a href="resources/img/lw1.jpg">
+                        <img src="resources/img/lw1.jpg" alt="Works">
+                    </a>
+                </div>
+                <div class="work-grid-item mix webd">
+                    <a href="resources/img/lw2.jpg">
+                        <img src="resources/img/lw2.jpg" alt="Works">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wd">
+                    <a href="resources/img/lw3.jpg">
+                        <img src="resources/img/lw3.jpg" alt="Works">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wd">
+                    <a href="resources/img/lw4.jpg">
+                        <img src="resources/img/lw4.jpg" alt="Works">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp">
+                    <a href="resources/img/lw5.jpg">
+                        <img src="resources/img/lw5.jpg" alt="work">
+                    </a>
+                </div>
+                <div class="work-grid-item mix webd">
+                    <a href="resources/img/lw6.jpg">
+                        <img src="resources/img/lw6.jpg" alt="Works">
+                    </a>
+                </div>
+                <div class="work-grid-item mix wp">
+                    <a href="resources/img/lwp7.jpg">
+                        <img src="resources/img/lwp7.jpg" alt="Works">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END WORK SECTION -->
+
+    <!-- START TESTIMONIAL SECTION -->
+    <section id="testi">
+        <div class="container">
+            <div class="testi-grid">
+                <div class="testi-grid-item">
+                    <img src="resources/img/quote.png" alt="quote" class="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                    <img src="resources/img/signature.png" alt="signature" class="signature">
+                    <h4>Deniel Croft</h4>
+                    <span>Creative Designer, Levy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+
+    <!-- START CONTACT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="ct-grid">
+                <div class="ct-grid-item">
+                    <h3>Leave a message</h3>
+                    <form action="#" method="post">
+                        <input type="text" placeholder="Name*" required>
+                        <input type="email" placeholder="Email*" required>
+                        <input type="text" placeholder="Subject*" required>
+                        <textarea placeholder="Massage*" required></textarea>
+                        <div class="form-btn-full">
+                            <input type="submit" value="Hire Me!" class="btn btn-full">
+                        </div>
+                    </form>
+                </div>
+                <div class="ct-grid-item nasted-ct-grid">
+                    <div class="nasted-ct-grid-item">
+                        <h3>Address</h3>
+                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                    </div>
+                    <div class="nasted-ct-grid-item">
+                        <h3>Phone</h3>
+                        <p>+880 174 037 6995
+                        <br>+880 191 448 6969</p>
+                    </div>
+                    <div class="nasted-ct-grid-item">
+                        <h3>Address</h3>
+                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+    <footer id="footer">
+        <div class="container">
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-dribbble"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; Copyright: <a href="#">Saikat</a> | All Rights Reserved.</p>
+            </div>
+            <div class="totop">
+                <a href="#" data-uk-totop data-uk-scroll></a>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+   
+    
+    <!-- JS FILE -->
+    <script src="vendors/js/modernizr-3.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="vendors/js/uikit.min.js"></script>
+    <script src="vendors/js/uikit-icons.min.js"></script>
+    <script src="vendors/js/wow.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
